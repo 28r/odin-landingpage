@@ -14,6 +14,8 @@ footer {
 #section2 {
     background-color: #1F2937;
     display: flex; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .foto {
@@ -28,6 +30,10 @@ footer {
 
 .foto a {
     color: pink;
+}
+
+#arcoiris {
+    border-radius: 5%;
 }
 
 button {
@@ -81,8 +87,8 @@ button {
 }
 
 .firstlevel {
-    padding-left: clamp(15px, 10%, 120px);
-    padding-right: clamp(15px, 10%, 120px);
+    padding-left: clamp(15px, 15%, 150px);
+    padding-right: clamp(15px, 15%, 150px);
 }
 
 .header {
@@ -160,4 +166,55 @@ button {
 #section4 {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.quote {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+}
+
+#section5 {
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#section6 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixaemsi {
+    color: white;
+    background-color: #3882F6;
+    width: 80%;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    perspective: 1px;
+}
+
+#ligueja {
+    border: 2px solid white;
+    padding: 5px 20px;
+}
+
+.caixaemsi div {
+    margin: 1em;
 }
