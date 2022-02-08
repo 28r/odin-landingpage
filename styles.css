@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    font-family: "Roboto";
+    text-align: center;
+    background-color: #1F2937;
+    padding: 1em;
+    color: white;
+}
+
+#section2 {
+    background-color: #1F2937;
+    display: flex; 
+}
+
+.foto {
+    font-family: "Roboto";
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: end;
+    text-align: right;
+    flex: 1;
+}
+
+.foto a {
+    color: pink;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4E80EE;
+    border-radius: 10px;
+}
+
+.textandbuttons {
+    font-family: "Roboto";
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    font-weight: extra-bold;
+    padding-right: 2em;
+    flex: 2;
+}
+
+#linha1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#linha2 {
+    font-weight: 18px;
+    color: #E5E7EB;
+    margin: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.firstlevel {
+    padding-left: clamp(15px, 10%, 120px);
+    padding-right: clamp(15px, 10%, 120px);
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ 
+.headerdiv {
+    background-color: #1F2937;
+}
+
+.header li {
+  float: left;
+}
+  
+.header li a {
+  display: block;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+}
+
+.header .leftA {
+    float: left;
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 20px 0px;
+}
+
+.header .rightA {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: #E5E7EB;
+    padding: 20px 10px;
+}
+
+.header .leftA a {
+    color: #F9FAF8;
+}
+
+.header .rightA a {
+    color: #E5E7EB;
+}
+
+#headerlinks {
+    float: right;
+}
