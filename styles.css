@@ -40,7 +40,7 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: #4E80EE;
+    background-color: #3882F6;
     border-radius: 10px;
 }
 
@@ -61,14 +61,23 @@ button {
     margin: 0.5em;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
 }
 
 #linha2 {
-    font-weight: 18px;
+    font-size: 18px;
+    margin-top: 0;
     color: #E5E7EB;
     margin: 0.5em;
     margin-left: 0;
     margin-right: 0;
+}
+
+#linha3 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-weight: bold;
 }
 
 .firstlevel {
@@ -124,4 +133,31 @@ button {
 
 #headerlinks {
     float: right;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.carouselimage {
+    width: 200px;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.carouselcaption {
+    font-family: 'Roboto';
+}
+
+.carouselelement {
+    width: 250px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#section4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
