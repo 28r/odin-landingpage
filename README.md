@@ -1,5 +1,7 @@
 # odin-landingpage
 
+Minha versão do projeto de landing page feito para o Odin Project.
+
 Carousel images sourced from:
 <br>
 https://unsplash.com/photos/m2EjUxMTQl4

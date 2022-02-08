@@ -9,6 +9,8 @@ footer {
     background-color: #1F2937;
     padding: 1em;
     color: white;
+    padding-left: clamp(15px, 15%, 150px);
+    padding-right: clamp(15px, 15%, 150px);
 }
 
 #section2 {
