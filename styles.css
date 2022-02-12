@@ -220,3 +220,11 @@ button {
 .caixaemsi div {
     margin: 1em;
 }
+
+footer a {
+    color: white;
+}
+
+.author a {
+    color: #1F2937;
+}
